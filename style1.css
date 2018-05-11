@@ -1,0 +1,201 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #FFE3EB;
+}
+.daily{
+  border-bottom: silver;
+
+}
+
+.lightPink{
+  background-color: #FFE3EB;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.darkPink{
+  background-color: #E75480;
+  width: 100%;
+  height: 100%;
+  margin:0;
+}
+
+.Buying{
+  background-color: #E75480;
+  height: 100%;
+}
+
+.insta{
+  background-image:url("insta.jpg");
+  opacity: 0.5;
+  text-decoration-color: black;
+}
+
+.insta:hover{
+  opacity: 1;
+}
+
+.infleunster{
+  background-image: url("infleunster.jpg");
+  opacity: 0.5;
+
+}
+.infleunster:hover{
+  opacity: 1;
+}
+
+.facebook{
+  background-image:url("f.png");
+  opacity: 0.5;
+}
+
+.facebook:hover{
+  opacity: 1;
+}
+#flex-container{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  position: fixed;
+  position: sticky;
+  top: 0;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  width: 4.5vw;
+  font-size: 1vw;
+  color: purple;
+  background-color: pink;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: yellow;
+  color: purple;
+}
+
+li a.active{
+  background: pink;
+  color: purple;
+}
+
+li a.active:hover{
+  background-color: yellow;
+  color: purple;
+}
+
+
+
+h2{
+  color: black;
+}
+
+h1{
+  color: black;
+}
+
+h3{
+  color: black;
+}
+
+h4{
+  color: black;
+}
+
+h5{
+  color: black;
+}
+
+h6{
+  color: black;
+}
+
+p{
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+#inside1{
+  transform-origin: 0% 0%;
+}
+
+#inside2{
+  transform-origin: 0% 0%;
+}
+
+.swatch1{
+  position: absolute;
+  top: 90%;
+  left: 80%
+}
+
+@keyframes first{
+  50%{transform: translate(-50px, 50px );}
+  100%{transform: initial;}
+}
+.paragraphSpecial {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+  text-align: center;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}

@@ -1,0 +1,136 @@
+html,
+body{
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url("Calm_blue.jpg");
+  background-color: #FED9F3;
+  font-family: sans-serif;
+}
+
+#flex-container{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+svg{
+  z-index: -1;
+}
+
+#star{
+  position: relative;
+  top: -130px;
+  left: 85px;
+  width: 30%;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  position: fixed;
+  position: sticky;
+  top: 0;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  width: 4.5vw;
+  font-size: 1vw;
+  color: purple;
+  background-color: pink;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: yellow;
+  color: purple;
+}
+
+li a.active{
+  background: pink;
+  color: purple;
+}
+
+li a.active:hover{
+  background-color: yellow;
+  color: purple;
+}
+
+h2{
+  color: #087638;
+}
+
+h1{
+  color: #4F8135;
+}
+
+h3{
+  color: #455F37;
+}
+
+h4{
+  color: #182DAD;
+}
+
+h5{
+  color: #7584DC;
+}
+
+h6{
+  color: #4C5380;
+}
+
+p{
+  color: #B269EF;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
